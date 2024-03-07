@@ -1,0 +1,78 @@
+.form {
+    border: 3px solid #A20AFF;
+}
+.submit {
+    background-color: #A20AFF;
+    font-family: 'Ubuntu', sans-serif;
+    border-color: #A20AFF;
+}
+
+
+#categ {
+    border: 3px solid #A20AFF;
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    border-radius: var(--bs-border-radius);
+    letter-spacing: 2px;
+    background-size: 22px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+
+.drop-container {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 31px;
+    height: 314px;
+    padding: 20px;
+    border: 3px dashed #972ada;
+    color: #444;
+    cursor: pointer;
+    transition: background .2s ease-in-out, border .2s ease-in-out;
+}
+
+.drop-container:hover,
+.drop-container.drag-active {
+    background: #F6ECFF;
+    border-color: #A20AFF;
+}
+
+.drop-container:hover .drop-title,
+.drop-container.drag-active .drop-title {
+    color: #222;
+}
+
+.drop-title {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color: #444;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    transition: color .2s ease-in-out;
+}
+
+input[type=file] {
+    width: 350px;
+    max-width: 100%;
+    color: #444;
+    padding: 5px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #555;
+}
+
+.bookPhoto {
+    width: 90%;
+}
+
+
+

@@ -1,0 +1,14 @@
+.page-link {
+    padding-inline: 15px;
+    padding-block: 10px;
+}
+
+.page-link:active, .page-link:focus {
+    background-color: #892edf !important;
+    border-color: #892edf !important;
+}
+
+.pagination {
+    --bs-pagination-active-bg: #892edf ;
+    --bs-pagination-active-border-color: #892edf;
+}

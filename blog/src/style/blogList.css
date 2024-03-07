@@ -1,0 +1,31 @@
+.card {
+    background-color: white;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 25px;
+}
+
+.topic {
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: auto;
+}
+.button-container {
+
+}
+
+.buttonRead {
+    border-radius: 0;
+    background-color: #8300ff;
+    border: 0;
+    font-family: 'cursive';
+    letter-spacing: 2px;
+    font-size: 17px;
+    padding-inline: 22px;
+}
+
+.buttonRead:hover {
+    background-color: #AD00FF;
+ }
+

@@ -1,0 +1,46 @@
+.userBlogsCard {
+    align-items: center;
+    margin-right: 30px;
+    padding-top: 50px;
+    padding-inline: 107px;
+    padding-bottom: 30px;
+}
+
+.userBlogImg {
+    width: 150px;
+    height: 237px;
+}
+
+.buttonUpdateBlog {
+    background-color: #8300ff;
+    border: 0;
+    border-radius: 0;
+    font-family: 'cursive';
+    letter-spacing: 2px;
+    font-size: 17px;
+    padding-inline: 30px;
+    width: 150px;
+}
+
+.buttonUpdateBlog:hover {
+    background-color: #AD00FF;
+}
+
+.delete {
+    background: #ff4343;
+    border: 0;
+    border-radius: 0;
+    margin-left: 5px;
+}
+
+.delete:hover {
+    background-color: red;
+}
+.delete:active {
+    background-color: #bc0f0f !important;
+}
+
+
+.bin {
+    width: 25px;
+}

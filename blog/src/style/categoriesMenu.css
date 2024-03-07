@@ -1,0 +1,44 @@
+.categoryContainer {
+    background-color: white;
+    padding-top: 30px;
+    padding-inline: 35px;
+    padding-bottom: 30px;
+}
+
+h4 {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.form-search-place {
+    border: 1px solid black;
+    border-radius: 0;
+}
+.searchIcon {
+    background-color: white;
+}
+
+.form-search-place:hover {
+    border-color: #AD00FF;
+}
+
+
+.form-search {
+    border-radius: 0;
+    border-right: 0;
+}
+
+
+.listItem {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #585151;
+    padding-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.networkingSite {
+    width: 35px;
+    margin-top: 5px;
+    margin-right: 9px;
+}

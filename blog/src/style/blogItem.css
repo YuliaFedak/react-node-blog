@@ -1,0 +1,39 @@
+.oneBlog {
+    padding-top: 40px;
+    padding-inline: 60px;
+}
+.oneBlogTitle {
+    margin-bottom: 35px;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.oneBlogImg {
+    width: 30%;
+    float: left;
+    border-radius: 0;
+    margin-right: 40px;
+}
+
+.oneBlogArticleAuthor {
+    font-size: 16px;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+.like, .dislike {
+    width: 35px;
+    border: 3px solid #E8D51A;
+    padding: 5px;
+    border-radius: 21px;
+}
+
+.like:hover, .dislike:hover {
+    background: #f6f7de;
+    cursor: pointer;
+}
+
+.button-like {
+    border: 0;
+    background: 0;
+}

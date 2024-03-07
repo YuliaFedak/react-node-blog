@@ -1,0 +1,46 @@
+.accountCard {
+    padding-block: 40px;
+    padding-inline: 40px;
+    margin-bottom: 148px;
+}
+.accountImg {
+    width: 150px;
+    align-self: center;
+}
+
+.accountAvatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 200px;
+    align-self: center;
+}
+
+.accountInformation {
+    display: inline-flex;
+}
+
+.point {
+    margin-left: 25px;
+}
+
+.information {
+    margin-left: 25px;
+    font-size: 20px;
+    margin-top: -3px;
+    font-style: normal;
+}
+
+.accountButton {
+    background-color: #8300ff;
+    border: 0;
+    border-radius: 0;
+    font-family: 'cursive';
+    letter-spacing: 2px;
+    font-size: 17px;
+    padding-inline: 30px;
+}
+
+.accountButton:hover {
+    background-color: #AD00FF;
+}
+
