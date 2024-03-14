@@ -16,8 +16,8 @@ const Blog = sequelize.define('blog', {
     topic: {type: DataTypes.STRING, allowNull: false},
     text: {type: DataTypes.TEXT, allowNull: false},
     img: {type: DataTypes.STRING, allowNull: false},
-    like: {type: DataTypes.NUMBER, defaultValue: 0},
-    dislike: {type: DataTypes.NUMBER, defaultValue: 0},
+    like: {type: DataTypes.INTEGER, defaultValue: 0},
+    dislike: {type: DataTypes.INTEGER, defaultValue: 0},
 })
 
 const Comment = sequelize.define('comment', {
