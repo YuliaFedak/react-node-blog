@@ -41,7 +41,7 @@ const UserAccount = observer(() => {
                 <Col md={4}>
                     <Card className="accountCard">
                         {user.user.avatar ?
-                            <Card.Img className="accountAvatar" variant="top" src={"http://localhost:7000/" + user.user.avatar} />
+                            <Card.Img className="accountAvatar" variant="top" src={"https://react-node-blog-nnpa.onrender.com/" + user.user.avatar} />
                             :
                             <Card.Img className="accountImg" variant="top" src={anonim} />
                         }
