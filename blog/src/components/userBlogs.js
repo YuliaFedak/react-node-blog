@@ -29,7 +29,7 @@ const UserBlogs = observer(({blogs}) => {
         <CardGroup style={{marginLeft: 30}}>
             {blogs.map(blog =>
                 <Card className="mb-5 userBlogsCard" key={blog.id}>
-                    <Card.Img className="userBlogImg" variant="top" src={"http://localhost:7000/" + blog.img} />
+                    <Card.Img className="userBlogImg" variant="top" src={"https://react-node-blog-nnpa.onrender.com/" + blog.img} />
                     <Card.Body>
                         <div className="d-inline-flex mt-4">
                             <Button onClick={() => history(USER_ACCOUNT + "/"+ blog.id)} className="buttonUpdateBlog">Update</Button>
