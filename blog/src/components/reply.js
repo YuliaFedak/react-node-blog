@@ -61,7 +61,7 @@ const Reply = ({commentId}) => {
             <Container className="replyContainer">
                 {replies.map(reply => {
                     const foundUser = user.users.find((user) => user.id === reply.userId);
-                    const avatarSrc = foundUser && foundUser.avatar ? `http://localhost:7000/${foundUser.avatar}` : anonim;
+                    const avatarSrc = foundUser && foundUser.avatar ? `https://react-node-blog-nnpa.onrender.com/${foundUser.avatar}` : anonim;
                     const userNickname = foundUser ? foundUser.nickname : null;
                     const commentDate = foundUser ? new Date(reply.createdAt).toLocaleDateString("en-US", options) : null;
                     return (
