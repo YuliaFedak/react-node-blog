@@ -2,11 +2,11 @@ import axios from "axios";
 
 
 const $host = axios.create({
-    baseURL: "http://localhost:7000/"
+    baseURL: "https://react-node-blog-nnpa.onrender.com"
 })
 
 const $authHost = axios.create({
-    baseURL: "http://localhost:7000/"
+    baseURL: "https://react-node-blog-nnpa.onrender.com"
 })
 
 const authInterceptor = config => {
