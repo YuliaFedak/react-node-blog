@@ -80,7 +80,7 @@ const UpdateUser = observer(() => {
 
                     >
                         {file ?
-                            <Image className="avatarPhoto" src={typeof file === "string" ? `http://localhost:7000/${file} ` : URL.createObjectURL(file)  } />
+                            <Image className="avatarPhoto" src={typeof file === "string" ? `https://react-node-blog-nnpa.onrender.com/${file} ` : URL.createObjectURL(file)  } />
                             :
                             <div>
                                 <div className="drop-title">Add photo</div>

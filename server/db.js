@@ -8,4 +8,7 @@ module.exports = new Sequelize(process.env.DB_URL, {
             rejectUnauthorized: false // Не перевіряти сертифікат
         }
     },
+
 });
+
+

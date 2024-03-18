@@ -35,7 +35,7 @@ const BlogList = observer(() => {
                                 </Col>
                                 <Col md={4}>
                                     <div className="d-flex align-content-end align-items-center">
-                                        <Card.Img variant="top" className="cardImg" src={"http://localhost:7000/" + blog.img} />
+                                        <Card.Img variant="top" className="cardImg" src={"https://react-node-blog-nnpa.onrender.com/" + blog.img} />
                                     </div>
                                 </Col>
                             </Row>

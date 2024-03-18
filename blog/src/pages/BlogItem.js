@@ -70,7 +70,7 @@ const BlogItem = observer(() => {
                             <Card.Title className="mt-2 oneBlogTitle">{blog.title}</Card.Title>
 
                             <Card.Text className="mt-4">
-                                <Card.Img src={"http://localhost:7000/" + blog.img} className="oneBlogImg"/>
+                                <Card.Img src={"https://react-node-blog-nnpa.onrender.com/" + blog.img} className="oneBlogImg"/>
                                 { blog.text ?
                                     blog.text.split('\n').map( (paragraph, index) =>
                                         <p key={index}>{paragraph}</p>
