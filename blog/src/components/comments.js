@@ -39,11 +39,11 @@ const Comments = observer(() => {
         fetchComment(id).then(data => blog.setComment(data))
         countComments(id).then(data => blog.setTotalCount(data))
 
-    }, [])
+    }, [blog, id])
 
     useEffect( () => {
         fetchUser().then(data => user.setUsers(data))
-    }, [id])
+    }, [id, user])
 
 
     const options = {

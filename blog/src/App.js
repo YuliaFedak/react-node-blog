@@ -30,7 +30,7 @@ const App = observer(() => {
         };
 
         fetchData();
-    }, []); // Додано порожній масив залежностей
+    }, [user]); // Додано порожній масив залежностей
 
     if (loading) {
         return <Spinner animation={"grow"} />;

@@ -22,7 +22,7 @@ const Blog = observer(() => {
             blog.setTotalCountBlogs(data.count)
         });
         fetchUser().then(data => user.setUsers(data));
-    }, [blog.page]);
+    }, [blog.page, blog, user]);
 
 
 

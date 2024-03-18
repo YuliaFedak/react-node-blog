@@ -44,7 +44,7 @@ const Reply = ({commentId}) => {
 
     useEffect(() => {
         fetchReplies(commentId).then(data => setReplies(data))
-    }, [])
+    }, [commentId])
 
     const options = {
         year: "numeric",

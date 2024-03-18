@@ -29,7 +29,7 @@ const BlogItem = observer(() => {
             setDislikes(data.dislike !== null ? parseInt(data.dislike) : 0)
         })
         fetchUser().then(data => user.setUsers(data))
-    }, [id])
+    }, [id, user])
 
 
     const AddLike = async () => {
