@@ -1,5 +1,5 @@
-import React, {useContext, useEffect} from 'react';
-import {Button, Card, Col, Container, Row} from "react-bootstrap";
+import React, {useContext} from 'react';
+import {Button, Card, Col, Row} from "react-bootstrap";
 import {Context} from "../index";
 import {observer} from "mobx-react-lite";
 import {useNavigate} from "react-router-dom";

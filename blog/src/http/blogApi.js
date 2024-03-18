@@ -1,5 +1,5 @@
 import {$authHost, $host} from "./index";
-import { jwtDecode } from "jwt-decode";
+
 
 export const createBlog = async (blog) => {
     const {data} = await $authHost.post('api/blog', blog)

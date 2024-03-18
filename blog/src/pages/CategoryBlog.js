@@ -1,5 +1,4 @@
 import React, {useContext, useEffect} from 'react';
-import {observer} from "mobx-react-lite";
 import {useParams} from "react-router-dom";
 import {fetchAllBlogByTopic} from "../http/blogApi";
 import {Col, Container, Row} from "react-bootstrap";

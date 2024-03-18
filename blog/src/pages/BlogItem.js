@@ -1,7 +1,7 @@
 import React, {useContext, useEffect, useState} from 'react';
 import {useParams} from "react-router-dom";
 import {fetchOneBlog, updateLike} from "../http/blogApi";
-import {Button, Card, Col, Container, Image, Row} from "react-bootstrap";
+import { Card, Col, Container, Image, Row} from "react-bootstrap";
 import {observer} from "mobx-react-lite";
 
 import Comments from "../components/comments";

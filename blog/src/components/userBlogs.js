@@ -4,9 +4,9 @@ import "../style/userBlogs.css"
 import {useNavigate} from "react-router-dom";
 import {BLOG_ROUTE, USER_ACCOUNT} from "../utils/consts";
 import bin from "../static/trash.png"
-import {useEffect, useState} from "react";
+import { useState} from "react";
 import {deleteBlog} from "../http/blogApi";
-import {set} from "mobx";
+
 
 
 const UserBlogs = observer(({blogs}) => {

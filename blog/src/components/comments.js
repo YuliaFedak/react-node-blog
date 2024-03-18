@@ -5,7 +5,7 @@ import {Context} from "../index";
 import {observer} from "mobx-react-lite";
 import {useNavigate, useParams} from "react-router-dom";
 import {LOGIN_ROUTE} from "../utils/consts";
-import {countComments, createComment, fetchComment, fetchOneBlog, fetchReplies} from "../http/blogApi";
+import {countComments, createComment, fetchComment} from "../http/blogApi";
 import anonim from "../static/anonim.png"
 import * as PropTypes from "prop-types";
 import Reply from "./reply";

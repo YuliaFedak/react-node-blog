@@ -1,4 +1,4 @@
-import React, {useContext, useEffect, useState} from 'react';
+import React, {useContext, useEffect} from 'react';
 import {Context} from "../index";
 import {fetchBlog} from "../http/blogApi";
 import {observer} from "mobx-react-lite";
