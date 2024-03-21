@@ -1,2 +1,2 @@
-Demo: https://endearing-sprite-af602c.netlify.app
+Demo: https://endearing-sprite-af602c.netlify.app/
 
